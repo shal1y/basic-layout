@@ -1,0 +1,356 @@
+/**
+
+file-name       : basic-layout
+project-name    : basic-layout
+
+Created by SS Virk on 09 Mar, 2017.
+
+*/
+
+//----------------------------
+//	Text Layout
+//----------------------------
+
+.text-center
+    text-align center
+
+.text-left
+    text-align left
+
+.text-right
+    text-align right
+
+.text-just
+    text-align justify
+
+//-------------------------------
+//	Positions
+//-------------------------------
+.abs
+    position absolute
+
+.rel
+    position relative
+
+.fix
+    position fixed
+
+//------------------------------
+//	For the width and height
+//------------------------------
+.fHt
+    height 100%
+
+.fWd
+    width 100%
+
+//-------------------------------
+//	Horizontal Alignment
+//-------------------------------
+.horizontal
+    display flex
+    flex-direction row
+    &.middle
+        align-items center
+    &.top
+        align-items flex-start
+    &.bottom
+        align-items flex-end
+    &.stretch
+        align-items stretch
+    &.left
+        justify-content flex-start
+    &.center
+        justify-content center
+    &.right
+        justify-content flex-end
+    &.justify
+        justify-content space-around
+
+//----------------------------------
+//	Vertical Alignment
+//----------------------------------
+.vertical
+    display flex
+    flex-direction column
+    &.left
+        align-items flex-start
+    &.center
+        align-items center
+    &.right
+        align-items flex-end
+    &.stretch
+        align-items stretch
+    &.top
+        justify-content flex-start
+    &.middle
+        justify-content center
+    &.bottom
+        justify-content flex-end
+    &.self-middle
+        align-self center
+
+//------------------------------
+//	Content Alignment
+//------------------------------
+.content-left-top
+    align-content flex-start
+
+.content-center
+    align-content center
+
+.content-right-bottom
+    align-content flex-end
+
+.content-stretch
+    align-content stretch
+
+//-----------------------------
+//	Flexing
+//-----------------------------
+.flex
+    flex 1 1 auto
+    &.none
+        flex 0 0 auto
+    &.no-shrink
+        flex-shrink 0
+    &.no-grow
+        flex-grow 0
+    &.grow-double
+        flex-grow 2
+    &.grow-triple
+        flex-grow 3
+    &.grow-quad
+        flex-grow 4
+    &.shrink-double
+        flex-shrink 2
+    &.shrink-triple
+        flex-shrink 3
+    &.shrink-quad
+        flex-shrink 4
+    &.no-auto
+        flex-basis 1px
+
+//---------------------------
+//	Wrapping
+//---------------------------
+.wrap-content
+    flex-wrap wrap
+
+.no-wrap
+    flex-wrap nowrap
+
+//----------------------------
+//	Scrolling
+//----------------------------
+.no-scroll
+    overflow none
+
+.can-scroll
+    overflow auto
+
+//----------------------------
+//	Padding
+//----------------------------
+
+//	All sides
+.psa
+    padding 5px
+
+.pna
+    padding 10px
+
+.pla
+    padding 15px
+
+.pea
+    padding 20px
+
+//	Horizontal
+.psh
+    padding-left 5px
+    padding-right 5px
+
+.pnh
+    padding-left 10px
+    padding-right 10px
+
+.plh
+    padding-left 15px
+    padding-right 15px
+
+.peh
+    padding-left 20px
+    padding-right 20px
+
+//	Vertical
+.psv
+    padding-top 5px
+    padding-bottom 5px
+
+.pnv
+    padding-top 10px
+    padding-bottom 10px
+
+.plv
+    padding-top 15px
+    padding-bottom 15px
+
+.pev
+    padding-top 20px
+    padding-bottom 20px
+
+//	Left
+.psl
+    padding-left 5px
+
+.pnl
+    padding-left 10px
+
+.pll
+    padding-left 15px
+
+.pel
+    padding-left 20px
+
+//	Right
+.psr
+    padding-right 5px
+
+.pnr
+    padding-right 10px
+
+.plr
+    padding-right 15px
+
+.per
+    padding-right 20px
+
+//	Top
+.pst
+    padding-top 5px
+
+.pnt
+    padding-top 10px
+
+.plt
+    padding-top 15px
+
+.pet
+    padding-top 20px
+
+//	Bottom
+.psb
+    padding-bottom 5px
+
+.pnb
+    padding-bottom 10px
+
+.plb
+    padding-bottom 15px
+
+.peb
+    padding-bottom 20px
+
+//----------------------------
+//	Margin
+//----------------------------
+
+//	All sides
+.msa
+    margin 5px
+
+.mna
+    margin 10px
+
+.mla
+    margin 15px
+
+.mea
+    margin 20px
+
+//	Horizontal
+.msh
+    margin-left 5px
+    margin-right 5px
+
+.mnh
+    margin-left 10px
+    margin-right 10px
+
+.mlh
+    margin-left 15px
+    margin-right 15px
+
+.meh
+    margin-left 20px
+    margin-right 20px
+
+//	Vertical
+.msv
+    margin-top 5px
+    margin-bottom 5px
+
+.mnv
+    margin-top 10px
+    margin-bottom 10px
+
+.mlv
+    margin-top 15px
+    margin-bottom 15px
+
+.mev
+    margin-top 20px
+    margin-bottom 20px
+
+//	Left
+.msl
+    margin-left 5px
+
+.mnl
+    margin-left 10px
+
+.mll
+    margin-left 15px
+
+.mel
+    margin-left 20px
+
+//	Right
+.msr
+    margin-right 5px
+
+.mnr
+    margin-right 10px
+
+.mlr
+    margin-right 15px
+
+.mer
+    margin-right 20px
+
+//	Top
+.mst
+    margin-top 5px
+
+.mnt
+    margin-top 10px
+
+.mlt
+    margin-top 15px
+
+.met
+    margin-top 20px
+
+//	Bottom
+.msb
+    margin-bottom 5px
+
+.mnb
+    margin-bottom 10px
+
+.mlb
+    margin-bottom 15px
+
+.meb
+    margin-bottom 20px

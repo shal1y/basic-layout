@@ -1,0 +1,16 @@
+{
+  "name": "basic-layout",
+  "version": "1.0.0",
+  "description": "Basic layout classes for CSS3 flex layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "layout",
+    "css3",
+    "flex"
+  ],
+  "author": "SS Virk",
+  "license": "MIT"
+}

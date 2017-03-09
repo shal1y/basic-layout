@@ -1,6 +1,6 @@
 {
   "name": "basic-layout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic layout classes for CSS3 flex layout",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,9 @@
     "flex"
   ],
   "author": "SS Virk",
-  "license": "MIT"
+  "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shal1y/basic-layout"
+    }
 }
